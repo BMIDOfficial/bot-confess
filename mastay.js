@@ -97,7 +97,7 @@ client.on('message', async msg => {
     } else {
         if(isUserInActiveRoom(msg.from)) {
             if(msg.type === 'image' || msg.type === 'video') {
-                return msg.reply("Maaf yah untuk sekarang tidak bisa mengirim video atau gambar🥲")
+                return msg.reply("Nggk bisa ngirim photo apa lagi gambar ya anjing")
             }
 
             const number = getRoomInfo(msg.from)
